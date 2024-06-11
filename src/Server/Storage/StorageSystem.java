@@ -2,7 +2,7 @@ package Server.Storage;
 
 import java.io.*;
 
-public class StorageSystem {
+public class StorageSystem implements StrorageInterface{
 
     public void saveHistoryToFile(String s){
         String filepath = "Database/log.txt";

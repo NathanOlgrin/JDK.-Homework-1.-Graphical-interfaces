@@ -1,7 +1,5 @@
 package Server.Server;
 
-import Client.ClientGraphics;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -10,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class ServerGraphics extends JFrame {
+public class ServerGraphics extends JFrame implements ServerGraphicsInterface {
     private static final int HEIGHT = 600;
     private static final int WEIGHT = 600;
     private static final int POS_X = 200;

@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class ClientGraphics extends JFrame{
+public class ClientGraphics extends JFrame implements ClientInterface{
     public static final int HEIGHT = 600;
     public static final int WEIGHT = 500;
 

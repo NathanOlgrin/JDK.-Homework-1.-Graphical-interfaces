@@ -3,7 +3,7 @@ package Server.Server;
 import Client.ClientController;
 import Server.Storage.StorageSystem;
 
-public class ServerController {
+public class ServerController{
     private boolean connected;
     private ServerGraphics serverGraphics;
     private final ServerStorage serverStorage;

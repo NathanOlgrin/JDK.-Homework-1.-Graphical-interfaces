@@ -2,7 +2,7 @@ package Client;
 
 import Server.Server.ServerController;
 
-public class ClientController {
+public class ClientController implements ClientInterface{
     private boolean isConnect;
     String name;
     private ClientGraphics clientGraphics;
